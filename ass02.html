@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+    form{
+        border: 2px black solid;
+        padding: 15px;
+        margin: 50px 200px;
+        background-color: white;
+    }
+
+    h1{
+        text-align: center;
+        padding: 35px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 60px;
+
+    }
+
+    .maindiv{
+        background-color: lightblue;
+        padding: 25px 15px ;
+        margin: 32px 32px 0px 32px;
+    }
+
+    table{ 
+        width: 100%;
+        height: 50px;
+    }
+
+    table th{
+        background-color: blue;
+    }
+    
+    h4{
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 5px;
+    }
+
+    option{
+        background-color: blue;
+    }
+
+    
+    
+   .cla457{
+    width: 100%;
+    
+    
+     }
+
+     td{
+        padding: 9px;
+     }
+
+     th{
+        padding: 5px;
+     }
+
+     fieldset{
+        border: 2px black dashed;
+     }
+</style>
+
+</head>
+<body>
+   
+   <h1>Student Profile Registration</h1>
+     <div class="maindiv">
+           <!-- form -->
+        <form>
+               <!-- fieldset01-personal details -->
+        <fieldset>
+            <legend><strong>Personal details</strong></legend>
+            <label for=""><strong> Name:</strong></label><br>
+            <input type="text" style="width: 100%;"><br><br>
+            <label for=""><strong> Address:</strong></label><br>
+            <input type="email" style="width: 100%;"><br>
+            <label for=""><strong> short Bio:</strong></label><br>
+            <textarea cols=35" rows="5" style="width: 100%;"></textarea>
+        </fieldset>  <br>
+              <!-- fieldset 02-selection-->
+        <fieldset>
+            
+            <legend><strong> Selection </strong></legend>
+
+            <label for="" id="choose"><strong>Choose a course:</strong></label><br>
+            <select style="width: 100%;">
+                <option>Web Development</option>
+                <option>UI/UX Design</option>
+                <option>Deta Science</option>
+            </select>
+             <br><br>
+            <label><strong> Days:</strong></label><br>
+            <label for="" >Monday</label>
+            <input type="checkbox" class="cla457"><br>
+            <label for=""  >Wednesday</label>
+            <input type="checkbox" class="cla457"><br>
+            <label for=""  >Friday</label>
+            <input type="checkbox"class="cla457">
+
+        </fieldset>
+        <br>
+           <h3><img src="/home/uki/iii.png" alt="book image" width="25px" height="25px">Available Courses</h3>
+        <!-- <h3>Available Courses</h3 > -->
+                <!-- ul list -->
+        <ul style="list-style-type: square;">
+            <li>HTML,CSS,JavaScipt</li>
+            <li>React & Next.js</li>
+            <li>Node.js and Express</li>
+            <li>python for Biginners</li>
+        </ul>
+        <h3><img src="/home/uki/oooooooooo.png" alt="book image" width="25px" height="25px">Upcoming Session</h3>
+                <!-- table -->
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>Course</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>HTML&CSS</td>
+                <td>June 25</td>
+                <td>10:00Am</td>
+            </tr>
+            <tr>
+                <td>JavaScipt Basics</td>
+                <td>June 28</td>
+                <td>2:00PM</td>
+            </tr>
+            <tr>
+                <td>React Introdution</td>
+                <td>July 01</td>
+                <td>11:00AM</td>
+            </tr>
+</table>
+        </div>
+    </form>
+    <!-- footer -->
+    <footer>
+        <h4>&copy; 2025 Uki Tech School | student Portal</p>
+    </footer>
+    
+    
+</body>
+</html>
